@@ -19,7 +19,7 @@
   font-size: 18px;
   line-height: 21px;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
  }
 
  .img {
@@ -68,23 +68,40 @@
 
  .advantages-title,
  .service-title {
-  color:#000000;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
   text-transform: uppercase;
-  text-align: center;
  }
 
  .advantages-subtitle,
  .service-subtitle {
-  text-align: center;
+
  }
 
  .subscribe-title,
  .subscribe-subtitle {
   color: #ffffff;
  }
+
+ .advantages-item-1,
+ .advantages-item-5 {
+  background-color: #82b3d3;
+  color: #ffffff;
+ }
+
+ .advantages-item-2,
+ .advantages-item-4,
+ .service-item-1,
+ .service-item-3 {
+  background-color: rgba(131, 179, 211, 0.12);
+  ;
+ }
+
+.advantages-item-3 {
+  background-color: rgba(131, 179, 211, 0.2);
+
+}
 
  .subscribe {
   background-image: url(../images/backgrounds/blurred-background-subscribe.jpg);
